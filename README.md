@@ -8,6 +8,11 @@ This is a keyboard layout for the standard Belgian (Period) layout, which is ver
 Since Apple does not recognize this keyboard layout, you have to install it yourself.
 
 Changes in this fork:
+- Two versions:
+  - A:
+    - Change upper left key to be ²³ instead of <>\
+  - B:
+    - Same as original
 - Change numpad separator to be . instead of ,
 
 ## Installation
