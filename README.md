@@ -1,32 +1,27 @@
-# [Belgian (Non-Apple) Keyboard Layout](https://el-tramo.be/be-non-apple)
+# Belgian Azerty Keyboard Layout for MacOS
+
+## [Reference](https://kbdlayout.info/KBDBE)
 
 ## About
 
-This is a Mac OS X keyboard layout for 'standard' Belgian
-The international keyboard layout (as opposed to the Apple-specific one)
-The main difference is that signs such as @ and # are accessed using AltGr.
+This is a keyboard layout for the standard Belgian (Period) layout, which is very closely related to French Azerty layouts.
+Since Apple does not recognize this keyboard layout, you have to install it yourself.
 
+Changes in this fork:
+- Two versions:
+  - A:
+    - Change upper left key to be ²³ instead of <>\
+  - B:
+    - Same as original
+- Change numpad separator to be . instead of ,
 
 ## Installation
 
-- Place the `Belgian (Non-Apple).keylayout` file (
-	or `Belgian (IBM).keylayout` if you have an IBM-compatible keyboard)
-	in `/Library/Keyboard Layouts`
-	or `/Users/<username>/Library/Keyboard Layouts` 
+- Place the `Belgian (period).keylayout` file in `/Library/Keyboard Layouts`
 - Log out and back in
-- From the *Input Menu* *International* preference pane, select 
-	the layout called *Belgian (Non-Apple)*
-
-Making it the default seems to be tricky: the keyboard sometimes seems to
-jump back to the default layout. Disabling the default keyboard seems 
-impossible since the checkbox is greyed out and unaccessible. I still 
-haven't found how to solve this, so I just move the whole `Roman.bundle`
-out of the System library and put it where Mac OS can't find it.
-
-## TODO
-
-- Make some kind of icon for it, preferably different than the default Belgian flag from Mac OS X.
+- Add it as an input source in system settings, it can be found under *Other*
 
 ## Acknowledgements
+Forked from [remko/be-non-apple](https://github.com/remko/be-non-apple).
 
-Thanks to Daniel Szmulewicz for providing the IBM keyboard layout.
+Thank you Remko for the effort!
